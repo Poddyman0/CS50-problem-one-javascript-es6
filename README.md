@@ -1,32 +1,31 @@
-# Project 0
+<strong>Project Title:</strong> TODO App
 
-The goal of this project is to practice JavaScript and its paradigms by creating
-a TODO app. This app should be able to add TODOs and track the number of total
-TODOs as well as the number of unchecked TODOs.
+<strong>Description:</strong>
 
-## Instructions
-Inside of [index.html](/index.html), you'll find some starter HTML. You shouldn't
-need to edit this file at all. Open this file on your computer into any browser
-to run the project. Make sure that [script.js](/script.js) and [styles.css](/styles.css)
-are in the same local directory. With the file open in your browser, you should
-see a `New TODO` button, which `alert`s when clicked. Your goal will be to get
-this button to create new TODOs.
+I created a TODO app to practice JavaScript and its paradigms, focusing on DOM manipulation and functionality. The application allowed me to add TODO items, track the total number of TODOs, and keep count of unchecked TODOs.
 
-Inside [styles.css](/styles.css), you'll find some pre-written CSS for your
-convenience. You shouldn't need to edit this file at all, but feel free to if
-desired.
+<strong>Technologies Used:</strong>
 
-[script.js](/script.js) is where most of your work will be done. There is some
-starter code for you in the file. The `classNames` variable can be used to link
-any elements you create in js with the associated CSS class names. The next 3
-lines of code are the HTML elements that you'll need to update when creating new
-TODOs. Lastly, you'll see the `addTodo()` function. This gets executed when
-creating a new TODO. You should replace the `alert()` call with logic to create
-new TODOs.
+<ul>
+  <li><strong>HTML:</strong> For the structure of the web pages.</li>
+  <li><strong>CSS:</strong> For styling the TODO app, utilizing pre-written styles.</li>
+  <li><strong>JavaScript:</strong> For implementing dynamic functionalities and interactions within the TODO app.</li>
+</ul>
+<strong>Features:</strong>
 
-Good luck!
+<strong>Adding TODOs:</strong>
 
-## Challenge! (Not Required)
-If you finish early and are up for a challenge, try adding delete functionality.
-This should be in the form of a button within each TODO that removes that TODO
-when clicked. 
+<ul>
+  <li>I implemented the functionality to create new TODO items when a button was clicked. Each TODO item included a checkbox and a label.</li>
+  <li>The <code>addTodo()</code> function was responsible for adding TODOs to the list and updating the count of total and unchecked TODOs.</li>
+</ul>
+<strong>Updating TODO Counts:</strong>
+
+<ul>
+  <li>I created a function to update the count of total TODOs and unchecked TODOs dynamically. This count was displayed on the page and updated whenever a TODO item was added or its checkbox was checked or unchecked.</li>
+</ul>
+<strong>Delete Functionality:</strong>
+
+<ul>
+  <li>As an additional challenge, I added a delete button to each TODO item. Clicking this button removed the TODO item from the list and updated the counts accordingly.</li>
+</ul>
